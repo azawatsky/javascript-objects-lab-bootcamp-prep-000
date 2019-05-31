@@ -13,3 +13,8 @@ function deleteFromObjectByKey(object,key) {
   delete recipesClone[key]
   return recipesClone
 }
+
+function destructivelyDeleteFromObjectByKey(object,key) {
+  delete object[key]
+  return recipes
+}
